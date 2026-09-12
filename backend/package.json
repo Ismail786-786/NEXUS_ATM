@@ -1,0 +1,19 @@
+{
+  "name": "nexus-atm-backend",
+  "version": "1.0.0",
+  "description": "Node.js & Express API Bridge for NEXUS ATM Simulator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+   "homepage": "https://github.com/Ismail786-786/NEXUS_ATM",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
+
